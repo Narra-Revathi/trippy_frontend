@@ -1,0 +1,44 @@
+/* Blogs.css */
+
+/* Container styles */
+.blogs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Big image styles */
+.big-image {
+    width: 100%;
+    height: 50vh;
+    /* Adjust the height as needed */
+    background: url('https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=600') center/cover no-repeat;
+    /* Add your big image */
+}
+
+/* About us styles */
+.about-us {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+/* About us content styles */
+.about-us-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Blogs list styles */
+.blogs-list {
+    width: 100%;
+    padding: 20px;
+}
+
+/* Loader styles */
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
